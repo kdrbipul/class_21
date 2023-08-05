@@ -86,7 +86,11 @@ for (const blogDetails of description){
 }
 
 
-function change(){
-    document.querySelector('h2').style.backgroundColor="red";
-    document.querySelector('h2').style.color='green';
+function hide(){
+    document.querySelector('h2').style.display="none";
+    // document.querySelector('h2').style.color='green';
+}
+function show(){
+    document.querySelector('h2').style.display="block";
+    // document.querySelector('h2').style.color='green';
 }
