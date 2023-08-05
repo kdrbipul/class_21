@@ -85,3 +85,8 @@ for (const blogDetails of description){
     blogDetails.style.color="white";
 }
 
+
+function change(){
+    document.querySelector('h2').style.backgroundColor="red";
+    document.querySelector('h2').style.color='green';
+}
