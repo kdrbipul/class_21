@@ -27,6 +27,36 @@
 // const lastTitle=document.getElementById("Last_title");
 // console.log(lastTitle);
 
+
+
+const li = document.createElement('li');
+li.innerText="Nav Item Created by js"
+// console.log(li);
+const ul =document.querySelector('ul');
+// console.log(ul);
+ul.appendChild(li);
+
+
+const article=document.createElement('article');
+// console.log(article);
+article.classList.add('blog');
+const h3Title=document.createElement('h3');
+// console.log(h3Title);
+h3Title.innerText="Our New Awesome Article - 5";
+// console.log(h3Title);
+const pDescription=document.createElement('p');
+pDescription.innerHTML=`<span>Our New Awesome Article - 1</span>`
+// console.log(pDescription);
+
+// console.log(article);
+article.appendChild(h3Title);
+article.appendChild(pDescription);
+// console.log(article);
+const section=document.querySelector('section');
+section.appendChild(article)
+
+
+
 const blogs=document.getElementsByClassName('blog');
 // console.log(blogs);
 
@@ -54,8 +84,4 @@ for (const blogDetails of description){
     blogDetails.style.backgroundColor="black";
     blogDetails.style.color="white";
 }
-
-const li = document.createElement('li');
-// console.log(li);
-li.innerText="Nav Item Created by js"
 
