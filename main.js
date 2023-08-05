@@ -31,5 +31,9 @@ const blogs=document.getElementsByClassName('blog');
 // console.log(blogs);
 
 for(const blog of blogs){
-    console.log(blog);
+    // console.log(blog);
+
+    blog.style.border="2px solid green";
+    blog.style.margin="2rem";
+    blog.style.padding="2rem";
 }
