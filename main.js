@@ -37,3 +37,20 @@ for(const blog of blogs){
     blog.style.margin="2rem";
     blog.style.padding="2rem";
 }
+
+
+// console.log(document.querySelectorAll('.blog'));
+
+const firstTitle=document.querySelector('h3');
+// console.log(firstTitle);
+firstTitle.style.backgroundColor="red";
+
+const description=document.querySelectorAll('p');
+console.log(description);
+
+for (const blogDetails of description){
+    // console.log(blogDetails);
+    blogDetails.style.backgroundColor="black";
+    blogDetails.style.color="white";
+}
+
