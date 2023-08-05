@@ -34,6 +34,7 @@ for(const blog of blogs){
     // console.log(blog);
 
     blog.style.border="2px solid green";
+    blog.style.borderRadius="2rem"
     blog.style.margin="2rem";
     blog.style.padding="2rem";
 }
@@ -46,11 +47,15 @@ const firstTitle=document.querySelector('h3');
 firstTitle.style.backgroundColor="red";
 
 const description=document.querySelectorAll('p');
-console.log(description);
+// console.log(description);
 
 for (const blogDetails of description){
     // console.log(blogDetails);
     blogDetails.style.backgroundColor="black";
     blogDetails.style.color="white";
 }
+
+const li = document.createElement('li');
+// console.log(li);
+li.innerText="Nav Item Created by js"
 
